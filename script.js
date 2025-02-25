@@ -16,3 +16,20 @@ const config = {
 };
 
 new Phaser.Game(Config);
+
+function preload(){
+    this.load.image(
+        "bird",
+        "/bird.png"
+    );
+
+    this.load.image(
+        "background",
+        "/background.jpg"
+    );
+
+    this.load.image(
+        "pipe",
+        "/pipe.png"
+    );
+}
